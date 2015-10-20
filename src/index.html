@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>cosmo</title>
+
+  <!-- build:css main.min.css -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- /build -->
+</head>
+
+<body>
+<!--[if lt IE 10]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+  <div id="cosmo-game" class="game"></div>
+
+  <!-- build:remove -->
+  <script src="http://localhost:35729/livereload.js"></script>
+  <!-- /build -->
+
+  <!-- build:js phaser.min.js-->
+  <script src="bower_components/phaser-official/build/phaser.min.js"></script>
+  <!-- /build -->
+
+  <script type="text/javascript">
+  var width = window.innerWidth
+  || document.documentElement.clientWidth
+  || document.body.clientWidth;
+
+  var height = window.innerHeight
+  || document.documentElement.clientHeight
+  || document.body.clientHeight;
+  </script>
+
+  <!-- build:js main.min.js -->
+  <script src="scripts/util.js"></script>
+  <script src="scripts/states/boot.js"></script>
+  <script src="scripts/states/preloader.js"></script>
+  <script src="scripts/states/stage1.js"></script>
+  <script src="scripts/states/stage2.js"></script>
+  <script src="scripts/states/stage3.js"></script>
+  <script src="scripts/states/stage4.js"></script>
+  <script src="scripts/states/stage5.js"></script>
+  <script src="scripts/states/stage6.js"></script>
+  <script src="scripts/objects/0BasicUnit.js"></script>
+  <script src="scripts/objects/1Unit.js"></script>
+  <script src="scripts/objects/2UnitGroup.js"></script>
+  <script src="scripts/objects/3Logo.js"></script>
+  <script src="scripts/objects/4Player.js"></script>
+  <script src="scripts/main.js"></script>
+  <!-- /build -->
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "name": "cosmo",
+  "description": "",
+  "readme": "",
+  "repository": "",
+  "version": "0.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "*",
+    "del": "*",
+    "gulp": "*",
+    "gulp-concat": "*",
+    "gulp-connect": "*",
+    "gulp-download": "*",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-jshint": "*",
+    "gulp-minify-css": "*",
+    "gulp-minify-html": "*",
+    "gulp-processhtml": "*",
+    "gulp-rename": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "*",
+    "gulp-watch": "*",
+    "tiny-lr": "*"
+  },
+  "scripts": {
+    "post-install": "node ./node_modules/bower/bin/bower install",
+    "start": "node ./node_modules/gulp/bin/gulp.js",
+    "build": "node ./node_modules/gulp/bin/gulp.js build",
+    "lint": "node ./node_modules/gulp/bin/gulp.js lint"
+  }
+}

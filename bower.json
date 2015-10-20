@@ -1,0 +1,11 @@
+{
+  "name": "cosmo",
+  "version": "0.0.9",
+  "authors": [
+    "Maxim Matyunin"
+  ],
+  "dependencies": {
+    "phaser-official": "latest",
+    "requirejs": "latest"
+  }
+}
