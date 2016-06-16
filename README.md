@@ -1,1 +1,1 @@
-Simple platformer built with Yeoman generator for Phaser. Demo available at http://translate.yahon.ru/cosmo.
+Simple platformer built with Phaser. Demo available at http://translate.yahon.ru/cosmo.
